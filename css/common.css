@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #434455;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  font-style: normal;
+  text-decoration: none;
+}
