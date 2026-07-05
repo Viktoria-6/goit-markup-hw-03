@@ -7,7 +7,6 @@ body {
   width: 1158px;
   max-width: 1158px;
   margin: 0 auto;
-  padding: 120px 15px;
 }
 h1,
 h2,
@@ -41,4 +40,16 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }

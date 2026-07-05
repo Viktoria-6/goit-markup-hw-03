@@ -20,31 +20,35 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="header">
-      <div class="header-container container">
+    <header class="header" id="header">
+      <div class="container header-container">
         <a class="header-logo" href="./index.html">
           <span class="logo-accent">Web</span>Studio</a
         >
         <nav class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#features">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a href="#team">Team</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
           </ul>
         </nav>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="contacts-item">
-              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
@@ -52,14 +56,14 @@
     </header>
     <main>
       <section id="hero" class="hero">
-        <div class="hero-container container">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
       <section id="features" class="features">
         <div class="features-container container">
-          <h2 class="features-title">Our Features</h2>
+          <h2 class="sr-only">Our Features</h2>
           <ul class="features-list">
             <li class="features-item">
               <h3 class="features-caption">Strategy</h3>
@@ -93,7 +97,7 @@
         </div>
       </section>
       <section id="team" class="team">
-        <div class="team-container container">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
@@ -151,8 +155,8 @@
           </ul>
         </div>
       </section>
-      <section id="portfolio">
-        <div class="portfolio-container container">
+      <section id="portfolio" class="portfolio">
+        <div class="container portfolio-container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
@@ -238,7 +242,7 @@
       </section>
     </main>
     <footer id="footer" class="footer">
-      <div class="footer-container container">
+      <div class="footer-container">
         <div class="footer-wrap">
           <a class="footer-logo" href="./index.html">
             <span class="footer-accent">web</span>studio</a
