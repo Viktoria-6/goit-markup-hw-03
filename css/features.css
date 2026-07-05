@@ -15,8 +15,8 @@
   justify-content: center;
   gap: 24px;
 }
-.team-item {
-  width: 264px;
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 .features-caption {
   font-weight: 500;
