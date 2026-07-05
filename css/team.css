@@ -1,5 +1,5 @@
 .team {
-  padding: 120px 15px;
+  padding: 120px 0;
   background: #f4f4fd;
   border: 1px solid #000;
 }
@@ -16,11 +16,6 @@
   width: calc((100% - 24px * 3) / 4);
   background: #fff;
   border-radius: 0 0 4px 4px;
-}
-
-.team-wrap-img {
-  width: 264px;
-  overflow: hidden;
 }
 .team-img {
   display: block;
